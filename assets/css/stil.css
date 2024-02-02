@@ -1,0 +1,959 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Commissioner', sans-serif;
+}
+
+body{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+    background: #FAFAFA;
+}
+
+
+
+/* NAVİGASYON BASLANGİC ALANI */
+
+.header{    
+    margin: -410px 91px 195px 116px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    height: 128px;
+    display: flex;
+}
+
+
+.link{
+    list-style: none;
+    a{
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+}
+
+.link li {
+    display: inline-block;
+    padding: 0px 22px;
+
+}
+/* NAVİGASYON BİTİS ALANI */
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* İLK DİV BASLANGIC ALANI */
+.content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.content1-jr{
+    width: 730px;
+    height: 269px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 8px;
+    
+    svg{
+        margin: -30px 338px 0 337px;
+    }
+    h1{
+        margin: 28px auto auto 0px;
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 15px;
+        color: #7A7A7A;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.buttons > a{
+    border-radius: 33px;
+    padding: 18px 41px;
+    background: #3CB3AB;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 71px;
+
+}
+
+.right-button{
+    display: flex;
+    align-items: center;
+    width: 174px;
+    height: 56px;
+    border-radius: 33px;
+    background-color: #FAFAFA;
+    margin-right: 57px;
+}
+
+.right-button > a{
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 17px 24px 19px 24px;
+}
+/* İLK DİV BİTİS ALANI */
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* İKİNCİ DİV BASLANGIC ALANI */
+
+.content-2{
+    display: flex;
+    justify-content: center;
+}
+
+.content-2-jr{
+    margin-top: 24px;
+    border-radius: 8px;
+    width: 730px;
+    height: 212px;
+    background-color: #FFF;
+}
+
+.total-money{
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+    img{
+        margin-top: -33px;
+    }
+    h1{
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    p{
+        color: #7A7A7A;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+.total-1{
+    margin: 0px 43px 37px 48px;
+}
+
+.total-2{
+    margin: 0px 43px 37px 47px;
+}
+
+.total-3{
+    margin: 0px 43px 37px 47px;
+}
+
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 37px 48px 49px 48px;
+}
+.slider-jr{
+    border-radius: 33px;
+    width: 634px;
+    height: 12px;
+    background-color: #FAFAFA;
+    img{
+        margin-top: -15px;
+    }
+}
+/* İKİNCİ DİV BİTİS ALANI */
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+/* ANA DİV BASLANGIC ALANI */
+
+.big-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ANA DİV BİTİS ALANI */
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+/* ANA DİV BİRİNCİ SECENEK BASLANGIC ALANI */
+.big-content-jr{
+    margin-top: 24px;
+    border-radius: 8px;
+    width: 730px;
+    height: 1250px;
+    background-color: #FFF;
+
+}
+
+.big-content-jr > h1{
+    margin-top: 48px;
+    margin-left: 48px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.big-content-jr > p{
+    margin: 48px 48px;
+    color: #7A7A7A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.big-content-jr1{
+    margin: 24px 48px;
+    width: 634px;
+    height: 248px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.jr1-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    height: 22px;
+    margin: 32px 32px;
+    
+    h1{
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: #3CB3AB;
+    }
+}
+
+.jr1-body{
+    margin: 32px 32px;
+    p{
+        color: #7A7A7A;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+.jr1-footer{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 48px;
+    justify-content: space-between;
+    margin: 32px 35px;
+}
+
+.jr1-footer-text{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    h1{
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    p{
+        color: #7A7A7A;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.jr1-footer-button{
+    a{  
+        color: #FFF;
+        text-decoration: none;
+        background-color: #3CB3AB;
+        border-radius: 33px;
+        padding: 17px 40px 19px 40px;
+    }
+}
+/* ANA DİV BİRİNCİ SECENEK BİTİS ALANI */
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+/* ANA DİV İKİNCİ SECENEK BASLANGIC ALANI */
+
+.big-content-jr2{
+    margin: 24px 48px;
+    width: 634px;
+    height: 248px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.jr2-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    height: 22px;
+    margin: 32px 32px;
+    
+    h1{
+        color: #000;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: #3CB3AB;
+    }
+}
+
+.jr2-body{
+    margin: 32px 32px;
+    p{
+        color: #7A7A7A;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+
+.jr2-footer{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 48px;
+    justify-content: space-between;
+    margin: 32px 35px;
+}
+
+.jr2-footer-text{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    h1{
+        color: #000;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    p{
+        color: #7A7A7A;
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.jr2-footer-button{
+    a{  
+        color: #FFF;
+        text-decoration: none;
+        background-color: #3CB3AB;
+        border-radius: 33px;
+        padding: 17px 40px 19px 40px;
+    }
+}
+/* ANA DİV BİRİNCİ SECENEK BİTİS ALANI */
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ANA DİV ÜCÜNCÜ SECENEK BASLANGIC ALANI */
+
+.big-content-jr3{
+    margin: 24px 48px;
+    width: 634px;
+    height: 248px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+
+.jr3-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    height: 22px;
+    margin: 32px 32px;
+    
+    h1{
+        color: #cccccc;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 400;
+        color: #9ad6d2;
+    }
+}
+
+.jr3-body{
+    margin: 32px 32px;
+    p{
+        color: #cccccc;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+.jr3-footer{
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 48px;
+    justify-content: space-between;
+    margin: 32px 35px;
+}
+
+.jr3-footer-text{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    h1{
+        color: #bcbaba;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    p{
+        color: #d6d3d3;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+}
+.jr3-footer-button{
+    a{  
+        color: #FFF;
+        text-decoration: none;
+        background-color: #dfd2d2;
+        border-radius: 33px;
+        padding: 17px 40px 19px 40px;
+
+    }
+}
+
+/* ANA DİV ÜCÜNCÜ SECENEK BİTİS ALANI */
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------  MODAL BASLANGIC ALANI   ----------------------------------------------------------- */
+
+.dialog-modal{
+    margin: 50px auto;
+}
+
+
+
+
+.conteiner-modal {
+    width: 730px;
+    border-radius: 8px;
+    border: 1px solid;
+    /* display: none; */
+    /* margin: -1107px auto 0px auto; */
+    /* z-index: 9; */
+}
+
+.exit-img{
+    text-align: right;
+    img{
+        padding: 24px 24px;
+    }
+}
+.modal-text{
+    margin: 0px 48px;
+    h1{
+        font-size: 24px;
+        font-weight: 900;
+        color: #000000;
+
+    }
+    p{
+        margin-top: 10px;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 28px;
+        color: #7A7A7A;
+    }
+}
+
+.modal-radio1{
+    display: flex;
+    margin: 32px auto;
+    width: 634px;
+    height: 157px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+
+.modal-radio1-label{
+    h1{
+        margin-top: 30px;
+        font-size: 19px;
+        font-weight: 900;
+        color: #000000;
+    }
+    p{
+        margin: 15px 20px 0px 0px;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 28px;
+        color: #7A7A7A;
+    }
+}
+
+.modal-radio1-input{
+    margin: 20px 24px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+.modal-radio2{
+    display: flex;
+    margin: 32px auto;
+    width: 634px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+
+.modal-radio2-input{
+    margin: 20px 24px;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-radio2-label{
+    h1{
+        margin-top: 30px;
+        font-size: 19px;
+        font-weight: 900;
+        color: #000000;
+    }
+    p{
+        margin: 15px 20px 0px 0px;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 28px;
+        color: #7A7A7A;
+    }
+}
+
+.modal-radio2-footer{
+    margin-bottom: 25px;
+}
+
+
+
+
+.modal-radio2-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+
+.modal-radio2-text1{
+    align-items: baseline;
+    display: flex;
+    gap: 20px;
+    h4{
+        color: #3CB3AB;
+    }
+}
+
+
+.modal-radio2-text2{
+    align-items: baseline;
+    display: flex;
+    gap: 10px;
+}
+
+
+.hidden-modal-radio2{
+    margin-left: -76px;
+    display: block;
+    
+}
+
+.hidden-modal-radio2-button{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 578px;
+    height: 48px;
+    margin: 25px auto; 
+}
+
+
+.dolar-button{
+    width: 100px;
+    height: 48px;
+    border-radius: 33px;
+    background-color: #FFF;
+    border: none;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.continue{
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px 30px;
+    background-color: #3CB3AB;
+    border-radius: 33px;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+.modal-radio3{
+    display: flex;
+    margin: 32px auto;
+    width: 634px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+
+.modal-radio3-input{
+    margin: 20px 24px;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-radio3-label{
+    h1{
+        margin-top: 30px;
+        font-size: 19px;
+        font-weight: 900;
+        color: #000000;
+    }
+    p{
+        margin: 15px 20px 0px 0px;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 28px;
+        color: #7A7A7A;
+    }
+}
+
+.modal-radio3-footer{
+    margin-bottom: 25px;
+}
+
+
+
+
+.modal-radio3-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+
+.modal-radio3-text1{
+    align-items: baseline;
+    display: flex;
+    gap: 20px;
+    h4{
+        color: #3CB3AB;
+    }
+}
+
+
+.modal-radio3-text2{
+    align-items: baseline;
+    display: flex;
+    gap: 10px;
+}
+
+
+.hidden-modal-radio3{
+    margin-left: -76px;
+}
+
+.hidden-modal-radio3-button{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 578px;
+    height: 48px;
+    margin: 25px auto; 
+}
+
+
+.dolar-button{
+    width: 100px;
+    height: 48px;
+    border-radius: 33px;
+    background-color: #FFF;
+    border: none;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.continue{
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px 30px;
+    background-color: #3CB3AB;
+    border-radius: 33px;
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+
+
+.modal-radio4{
+    display: flex;
+    margin: 32px auto;
+    width: 634px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #FFF;
+}
+
+.modal-radio4-input{
+    margin: 20px 24px;
+    width: 50px;
+    height: 50px;
+}
+
+.modal-radio4-label{
+    h1{
+        margin-top: 30px;
+        font-size: 19px;
+        font-weight: 900;
+        color: #bcbaba;
+    }
+    p{
+        margin: 15px 20px 0px 0px;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 28px;
+        color: #d6d3d3;
+    }
+}
+
+.modal-radio4-footer{
+    margin-bottom: 25px;
+}
+
+
+
+
+.modal-radio4-header{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+
+.modal-radio4-text1{
+    align-items: baseline;
+    display: flex;
+    gap: 20px;
+    h4{
+        color: #3CB3AB;
+    }
+}
+
+
+.modal-radio4-text2{
+    align-items: baseline;
+    display: flex;
+    gap: 10px;
+}
+
+
+.hidden-modal-radio4{
+    margin-left: -76px;
+    
+    
+}
+
+.hidden-modal-radio4-button{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 578px;
+    height: 48px;
+    margin: 25px auto; 
+}
+
+
+.dolar-button{
+    width: 100px;
+    height: 48px;
+    border-radius: 33px;
+    background-color: #FFF;
+    border: none;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.continue{
+    text-decoration: none;
+    color: #FFF;
+    padding: 14px 30px;
+    background-color: #9ad6d2;
+    border-radius: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- MODAL FNİSH ----------------------------- */
+
+.dialog-finish-modal{
+    margin: 100px auto;
+}
+
+
+.finish-modal{
+    padding: 15px;
+    border-radius: 8px;
+    width: 540px;
+    background-color: #fff;
+    /* display: none; */
+}
+
+
+.okey{
+    background-image: url(../img/okey.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #3CB3AB;
+}
+
+.finish-modal-text{
+    text-align: center;
+    h1{
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 29px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    p{
+        margin: 25px 45px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+
+    button{
+        margin: 25px 45px;
+        width: 107px;
+        height: 48px;
+        border: none;
+        text-decoration: none;
+        background-color: #3CB3AB;
+        border-radius: 33px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+}

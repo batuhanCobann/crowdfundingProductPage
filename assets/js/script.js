@@ -33,17 +33,15 @@ bindActiveModal();
 //  }
 
 //  bindActiveModal();
+const closeBtn = document.querySelector(".close-btn")
+closeBtn.addEventListener("click", e => bindCloseBtn(e))
 
 
-function bindCloseBtn(){
-    const closeBtn = document.querySelector(".close-btn")
-    closeBtn.addEventListener("click", e => {
-        e.preventDefault();
-        getModal.style.display = "none";
-    });
+function bindCloseBtn(e){
+    e.preventDefault();
+    getModal.style.display = "none";
 }
 
-bindCloseBtn();
 
 
 
@@ -51,20 +49,20 @@ const activeFinishModalBtns = document.querySelectorAll(".continue")
 const getFinishModal = document.querySelector(".finish-modal")
 const dialogGetFinishModal = document.querySelector(".dialog-finish-modal")
 
+for (const activeFinishModalBtn of activeFinishModalBtns) {
+    activeFinishModalBtn.addEventListener("click", e => {
+        e.preventDefault();
+        bindActiveModalContinue();
+        // getFinishModal.style.display = "block";
+    });
+}
 
 
 function bindActiveModalContinue(){
-    for (const activeFinishModalBtn of activeFinishModalBtns) {
-        activeFinishModalBtn.addEventListener("click", e => {
-            e.preventDefault();
-            getModal.style.display = "none";
-            dialogGetFinishModal.showModal();
-            // getFinishModal.style.display = "block";
-        });
-    }
+    dialogGetFinishModal.showModal();
 }
 
-bindActiveModalContinue();
+
 
 // function bindActiveModalContinue(){
 //     for (const activeFinishModalBtn of activeFinishModalBtns) {
@@ -78,14 +76,11 @@ bindActiveModalContinue();
 
 // bindActiveModalContinue();
 
+const closeFinishModalBtn = document.querySelector(".close-finish-btn")
 
+closeFinishModalBtn.addEventListener("click", e => bindCloseModalContinue(e));
 
-function bindCloseModalContinue(){
-    const closeFinishModalBtn = document.querySelector(".close-finish-btn")
-    closeFinishModalBtn.addEventListener("click", e => {
-        e.preventDefault();
-        getFinishModal.style.display = "none";
-    });
+function bindCloseModalContinue(e){
+    e.preventDefault();
+    document.querySelector('.dialog-finish-modal').close();
 }
-
-bindCloseModalContinue();
